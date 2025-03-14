@@ -1,0 +1,46 @@
+body {
+    /* background-image: url("https://wallpapers.com/images/hd/cute-simple-piggy-l82qm0l324fr31hc.jpg"); */
+    background: linear-gradient(0deg,rgba(255,0,0,.5), rgba(0,0,255,.5)), url("https://wallpapers.com/images/hd/cute-simple-piggy-l82qm0l324fr31hc.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;
+    margin: 0px;
+}
+
+.container {
+    display : flex;
+}
+
+.flex {
+    flex:1;
+}
+
+/* Navigation */
+nav {
+    margin-top: 0px;
+    overflow: hidden;
+    height:75px;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.navElement {
+    justify-content: center;
+    align-items: center;
+}
+
+.navElement h1 {
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-weight: bold;
+}
+
+#home h1 {
+    color:white;
+    font-size:45px;
+    text-align: center;
+}

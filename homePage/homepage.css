@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(0deg,rgba(0,0,0,.9), rgba(25,25,25,.9)), url(Photos/bg.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#IntroSection {
+    margin:10px;
+    height: 600px;
+    background-color:rgba(255,255,255,.1);
+}
+#leftIntro {
+    justify-content: center;
+    align-items: center;
+    flex:3;
+}
+
+#rightIntro {
+    justify-content: center;
+    align-items: center;
+    flex:2;
+}
+
+#introPhoto {
+    border-radius: 360px;
+    border: 10px solid black;
+    box-shadow: 10px 10px rgba(5,5,5,.75);
+    scale:.9;
+    transition:1s;
+}

@@ -2,11 +2,18 @@
 <html>
 
 <head>
+    <!-- Words that will show on the tab -->
     <title>About Me</title>
+
+    <!-- CSS -->
     <link href='CSS/style.css' rel='stylesheet'>
-    <link href='CSS/navBar.css' rel='stylesheet'>
     <link href='CSS/fonts.css' rel='stylesheet'>
 
+    <!-- Navigation CSS -->
+    <link href='navBar/navBar.css' rel='stylesheet'>
+
+    <!-- Homepage CSS -->
+    <link href='homePage/homepage.css' rel='stylesheet'>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +21,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Navigation Bar -->
     <nav class="container">
         <span id="leftNav" class="container" style="flex:.5">
             <span id="home" class="flex">
@@ -37,14 +45,16 @@
             </span>
         </span>
     </nav>
+
+    <!-- Introduction Section -->
     <div id="IntroSection" class="container">
-        <div id="Intro">
-            <div id="leftIntro">
-
-            </div>
-            <div id="rightIntro">
-
-            </div>
+        <div id="leftIntro" class="container">
+            <span>
+                <h1>Hey there! I am the left side!</h1>
+            </span>
+        </div>
+        <div id="rightIntro" class="container">
+            <img id="introPhoto" src="homePage/Photos/introPhoto.jpg">
         </div>
     </div>
 </body>

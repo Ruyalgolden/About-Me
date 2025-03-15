@@ -1,0 +1,44 @@
+
+/* Navigation */
+nav {
+    margin-top: 0px;
+    overflow: hidden;
+    height:75px;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+nav {
+    cursor: pointer;
+}
+
+.navElement {
+    background-color: rgba(0, 0, 0, .5);
+    justify-content: center;
+    align-items: center;
+    height:75px;
+    transition:.5s;
+}
+.navElement:hover {
+    background-color: rgba(0,0,0,.75);
+    border-bottom: 1px solid white;
+}
+
+.navElement h1 {
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-weight: bold;
+}
+#home {
+    background-color: rgba(0, 0, 0, .5);
+}
+#home:hover h1 {
+    font-size:47.5px;
+}
+#home h1 {
+    transition:1s;
+    color:white;
+    font-size:45px;
+    text-align: center;
+}

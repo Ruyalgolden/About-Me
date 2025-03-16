@@ -4,6 +4,7 @@ nav {
     margin-top: 0px;
     overflow: hidden;
     height:75px;
+    width:100vw;
     flex-direction: row;
     justify-content:center;
     align-items: center;

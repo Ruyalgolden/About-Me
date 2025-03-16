@@ -6,7 +6,7 @@ body {
 }
 
 #IntroSection {
-    margin:20px;
+    margin:20px 35px 20px 20px;
     height: 600px;
     background-color:rgba(255,255,255,.05);
 }
@@ -38,6 +38,10 @@ body {
 #introTitle {
     font-size:75px;
     color:white;
+    transition:1s;
+}
+#introTitle:hover {
+    font-size:80px;
 }
 
 #leftIntro span p {
@@ -45,4 +49,8 @@ body {
     text-align: center;
     width:600px;
     font-size:25px;
+    transition: 1s;
+}
+#leftIntro span p:hover {
+    font-size:26px;
 }

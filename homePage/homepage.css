@@ -1,9 +1,4 @@
-body {
-    background: linear-gradient(0deg,rgba(0,0,0,.9), rgba(25,25,25,.9)), url(Photos/bg.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat:no-repeat;
-}
+
 
 #IntroSection {
     margin:20px 35px 20px 20px;
@@ -52,5 +47,5 @@ body {
     transition: 1s;
 }
 #leftIntro span p:hover {
-    font-size:26px;
+    font-size:27px;
 }

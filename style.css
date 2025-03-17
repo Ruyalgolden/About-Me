@@ -1,0 +1,19 @@
+body {
+    height:100%;
+    width:100vw;
+    margin: 0px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background: linear-gradient(0deg,rgba(0,0,0,.9), rgba(25,25,25,.9)), url(bg.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.container {
+    display : flex;
+}
+
+.flex {
+    flex:1;
+}

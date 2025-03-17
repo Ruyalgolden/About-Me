@@ -1,0 +1,42 @@
+
+
+#track {
+    margin:20px 35px 20px 20px;
+    height: 600px;
+    background-color:rgba(255,255,255,.05);
+}
+#rightPanel {
+    justify-content: center;
+    align-items: center;
+    flex:3;
+    flex-direction: column;
+}
+
+#leftPanel {
+    justify-content: center;
+    align-items: center;
+    flex:2;
+}
+
+#hobbiesPhoto {
+    border-radius: 100px;
+    border: 10px solid black;
+    box-shadow: 10px 10px rgba(5,5,5,.75);
+}
+
+
+#hobbiesTitle {
+    font-size:65px;
+    color:white;
+}
+
+#rightPanel span p {
+    color:white;
+    text-align: center;
+    width:600px;
+    font-size:25px;
+    transition: 1s;
+}
+#hobbiesTitle span p:hover {
+    font-size:27px;
+}
